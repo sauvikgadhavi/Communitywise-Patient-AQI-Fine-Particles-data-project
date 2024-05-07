@@ -1,0 +1,14 @@
+EVALUATE AQIHealthAnalysis
+
+EVALUATE (
+row(
+"Average", AVERAGE(Health_Statistics[Patient_Count])))
+
+EVALUATE (
+row(
+"SUM", SUM((Health_Statistics[Patient_Count]))))
+
+EVALUATE (
+row(
+"SUM", SUM((AQIHealthAnalysis[Medicine_Count]))))
+
